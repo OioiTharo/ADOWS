@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Equação do Segundo Grau</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Equação do Segundo Grau</h2>
+        <div class="form">
+            <h3>Cálculo da Equação do Segundo Grau</h3>
+            <form id="calculate-form" action="/calcular" method="POST">
+                <input type="number" id="a" name="a" placeholder="Coeficiente 'a'" required>
+                <input type="number" id="b" name="b" placeholder="Coeficiente 'b'" required>
+                <input type="number" id="c" name="c" placeholder="Coeficiente 'c'" required>
+                <button type="submit">Calcular</button>
+            </form>            
+            <p></p><a href="registro.html">Cadastrar</a>|  
+            <a href="login.html">Login</a></p>
+            <div id="resultado" class="resultado">
+
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
