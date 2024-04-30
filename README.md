@@ -1,6 +1,6 @@
 # ADOWS
 
-Thais Rodrigues Andrade e Giovanna Ronqui Bonavolontá
+## Thais Rodrigues Andrade e Giovanna Ronqui Bonavolontá
 
 ADO: API de Cálculo de Equação do Segundo Grau com Autenticação
 Desenvolva uma API em Node.js que permita aos usuários autenticados calcular equações do segundo grau. A API deve fornecer endpoints para registro de usuários, login e cálculo da equação do segundo grau. A autenticação de usuários será feita manualmente, e os dados dos usuários serão armazenados em memória.
